@@ -17,11 +17,11 @@ EXAMPLE for POST request
 http://localhost:3000/api/fetch
 
 {
-    "lon":"41",
-    "lat":"10",
-    "part":"hourly"
+    "lon":"42",
+    "lat":"11",
+    "part":"hourly,daily"
 }
 
 EXAMPLE for GET request
 
-http://localhost:3000/api/get?lat=10&lon=41&part=hourly
+http://localhost:3000/api/get?lat=11&lon=42&part=hourly,daily
